@@ -40,6 +40,9 @@ pnode initList() {
 		body->pre = temp;
 		temp = body;
 	}
+
+	//加入这行就变成循环链表
+	//temp->next = head->next;
 	return head;
 }
 
